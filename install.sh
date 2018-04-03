@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-compress_and_deploy()
+decompress_and_deploy()
 {
   src=$1
   dst=$2
@@ -20,7 +20,7 @@ cd Linux-Theme-Resources
 mkdir -p ~/.icons
 mkdir -p ~/.themes
 
-compress_and_deploy cursor-themes ~/.icons
-compress_and_deploy icon-themes ~/.icons
-compress_and_deploy gtk-themes ~/.themes
-compress_and_deploy shell-themes ~/.themes
+decompress_and_deploy cursor-themes ~/.icons
+decompress_and_deploy icon-themes ~/.icons
+decompress_and_deploy gtk-themes ~/.themes
+decompress_and_deploy shell-themes ~/.themes
